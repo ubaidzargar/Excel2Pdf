@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // Create a DOM structure for PDF content
             $html = '<html><body>';
-            $html .= '<div style="text-align: center;"><strong>JKBRSETI ANANTNAG</strong></div><br>';
+            $html .= '<div style="text-align: center;"><strong>Organization name</strong></div><br>';
             $html .= '<strong>' . $entryName . '</strong>';
 
             for ($i = 1; $i < count($row); $i++) {
